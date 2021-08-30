@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.board-game {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    height: 25px;
+    width: 25px;
+}
+
+.black {
+    background-color: #050404;
+    /* box-shadow: 0px 0px 0px 0.15px white; */
+}
+
+.white {
+    background-color: white;
+    /* box-shadow: 0px 0px 0px 0.15px black; */
+}
+
+.red {
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border: 5px solid black;
+}
+
+#modal {
+    position: absolute;
+    height: -webkit-fill-available;
+    background-color: #000;
+    opacity: 0.5;
+    top: 0;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 5rem;
+    padding: 0.2rem;
+    font-size: medium;
+    font-weight: bold;
+    color: #03272a;
+    margin: 1rem;
+}
